@@ -573,6 +573,25 @@ button.mfp-close:hover {
 /*-------------------------------------------------
 	8. Resume
 -------------------------------------------------*/
+@media screen and (min-width: 800px) {
+    .resume-box {
+	position: relative;
+	height:340px;
+	width:440px;
+	margin-left:10%;
+	margin-top:15px;
+	padding: 30px 30px 30px 100px;
+	border: 1px solid rgb(230, 230, 230);
+	-webkit-box-shadow: inset 0px 0px 0px 5px rgba(255,255,255,1);
+	-moz-box-shadow: inset 0px 0px 0px 5px rgba(255,255,255,1);
+	box-shadow: inset 0px 0px 0px 5px rgba(255,255,255,1);
+	-webkit-transition: ease-out 0.2s;
+	-moz-transition: ease-out 0.2s;
+	-o-transition: ease-out 0.2s;
+	transition: ease-out 0.2s;
+}
+}
+
 .resume-background {
 	background: #fff;
 	margin-top: 30px;
@@ -581,8 +600,8 @@ button.mfp-close:hover {
 
 .resume-box {
 	position: relative;
-	height:340px;
-	width:440px;
+	/*height:340px;
+	width:440px;*/
 	margin-left:10%;
 	margin-top:15px;
 	padding: 30px 30px 30px 100px;
